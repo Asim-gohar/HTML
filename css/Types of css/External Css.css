@@ -1,0 +1,23 @@
+body {
+      background-color: thistle;
+}
+
+h1 {
+    color: chocolate;
+}
+
+div {
+    color: brown;
+}
+     
+table {
+       background-color: cornflowerblue;
+}
+
+th {
+    color: crimson;
+}
+
+td {
+    color: rgb(68, 11, 202);
+}

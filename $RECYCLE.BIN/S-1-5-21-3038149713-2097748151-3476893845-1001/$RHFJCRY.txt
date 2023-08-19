@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>review </title>
+    </head>
+
+    <body>
+        <p id="#top"> PIAIC offering following courses;</p>
+        <ol>
+            <li><a href="#aic">Artificial Intelligence </a></li>
+            <li><a href="#cnc">Cloud Native computing </a></li>            
+            <li><a href="#bcc">Blockchain computing</a></li>            
+            <li><a href="#iot">Internet of things </a></li>
+        </ol>
+        <p id="aic">
+            <h1>Artificial Intelligence</h1>
+            This module is structured around a series of practical code examples, demonstrating on real world problems. PIAIC strongly believes in the value of teaching using concrete examples, anchoring theoretical ideas into actual results and tangible code patterns. These examples all rely on Keras, the Python deep learning library. Students will learn Deep Learning for computer vision, text and sequences, finance, and advanced neural network design.
+        </p>
+        <p id="cnc">
+            <h1>Cloud Native computing</h1>
+            Cloud native computing uses open-source software stacks to deploy applications as microservices, packaging each part into its own container and dynamically orchestrating those containers to optimize resource utilization. In the last 15 years, cloud application delivery has moved from being bound to physical servers to running on virtual machines with a full operating system and now to containers with Docker, where developers can specify every aspect of deployment. 
+        </p>
+        <p id="bcc">
+            <h1>Blockchain computing</h1> 
+            In this module, students will get an introduction to digital money, bitcoin and the blockchain. Students will learn about trestles systems and proof of work. Students will also learn the difference between private, consortium, and public blockchain networks. This module will also provide an introduction to hashing and cryptography.
+
+        </p>
+        <p id="iot">
+            <h1>Internet of things</h1>
+            This course will start by providing a definition of the term. We will talk about how various trends have enabled the Internet of Things, and how it changes the way programming is done. We will also discuss some of the ramifications that IoT is having on society today.
+
+        </p>
+        <p>
+            <a href="#top"></a>
+        </p>
+
+    </body>
+</html>  
