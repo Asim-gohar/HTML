@@ -152,12 +152,35 @@ while(integer <= 25){
   integer ++ ;
 }
 */
-
+/*
 //- Write a program having an array of numbers if the number is negative it should remove the negative number from the array.
 let arrayOfNum: number[] = [12,13,14,15,-16,-17];
 
 while(arrayOfNum > [0]){
   console.log(arrayOfNum);
-  
-
 }
+*/ /*
+//- Create a function that takes an array of numbers as parameter. Use a while loop to calculate and return the sum of all the numbers in the array.
+function calculateSum(array : number[]){
+  let indexNum :number = 0;
+  let sum :number = 0 ;
+while(indexNum < array.length){
+   sum += array[indexNum] ;
+
+   indexNum++   
+}  
+return sum ;
+}
+let array :number[] = [10,20,30,40] ;
+let result :number= calculateSum(array) ;
+console.log(result);
+*/ /*
+//-Write a program having an array of numbers if the number is negative it should remove the negative number from the array.
+let arrayNum : number[] = [12,13,14,11,-16,-17] ;
+function filteringArray(array : number[]){
+  return array.filter(array=> array < 0)
+}
+let result: number[]= filteringArray(arrayNum) ;
+console.log(result);
+*/
+
